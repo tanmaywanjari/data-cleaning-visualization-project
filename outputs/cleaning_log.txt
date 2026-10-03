@@ -1,0 +1,16 @@
+Raw data: 3560 rows x 14 columns
+Duplicates: removed 110 exact duplicate rows
+Text: standardised case/spacing/aliases in gender, region, category, payment_method; converted placeholder strings such as 'nan' to real missing values
+Types: converted sales '$' strings to numbers; parsed 3 date formats; dropped 15 rows with unparseable dates
+Invalid: 12 impossible values in 'customer_age' (outside 18-80) set to missing
+Invalid: 15 impossible values in 'quantity' (outside 1-10) set to missing
+Invalid: 14 impossible values in 'unit_price' (outside 1-2000) set to missing
+Invalid: 10 impossible values in 'customer_rating' (outside 1-5) set to missing
+Invalid: 10 impossible values in 'discount_pct' (outside 0-50) set to missing
+Missing: 225 in 'region' labelled 'Unknown' (a location cannot be guessed, so no mode fill)
+Missing: 60 in 'gender' filled with mode
+Missing: 108 in 'payment_method' filled with mode
+Missing: age/rating/quantity -> median, discount -> 0, unit_price -> product median
+Outliers: capped 21 unit_price values using IQR rule within each category
+Sales: 69 missing + 173 inconsistent values recomputed = quantity x price x (1-discount)
+Final clean data: 3435 rows x 16 columns, 0 missing, 0 duplicates

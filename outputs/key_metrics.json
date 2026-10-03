@@ -1,0 +1,70 @@
+{
+  "total_sales": 499796.29,
+  "orders": 3435,
+  "aov": 145.5,
+  "avg_rating": 4.05,
+  "top_category": "Electronics",
+  "top_category_share": 45.9,
+  "top_region": "West",
+  "top_region_share": 27.6,
+  "best_month": "December",
+  "best_month_sales": 70686.3,
+  "worst_month": "September",
+  "worst_month_sales": 31725.8,
+  "nov_dec_share": 26.5,
+  "avg_order_by_category": {
+    "Beauty": 65.81,
+    "Clothing": 104.64,
+    "Electronics": 325.49,
+    "Home & Kitchen": 129.93,
+    "Sports": 82.95
+  },
+  "sales_by_category": {
+    "Electronics": 229472.0,
+    "Clothing": 96690.0,
+    "Home & Kitchen": 89260.0,
+    "Sports": 51929.0,
+    "Beauty": 32446.0
+  },
+  "sales_by_region": {
+    "West": 138023.0,
+    "South": 131166.0,
+    "North": 102135.0,
+    "East": 93090.0,
+    "Unknown": 35382.0
+  },
+  "avg_order_by_discount": {
+    "0%": 159.88,
+    "1-10%": 142.92,
+    "11-20%": 128.56,
+    "21%+": 119.48
+  },
+  "rating_by_category": {
+    "Beauty": 4.06,
+    "Clothing": 4.03,
+    "Electronics": 4.03,
+    "Home & Kitchen": 4.07,
+    "Sports": 4.06
+  },
+  "sales_by_age_group": {
+    "18-25": 76438.0,
+    "26-35": 144309.0,
+    "36-45": 185028.0,
+    "46-55": 78678.0,
+    "56+": 15343.0
+  },
+  "sales_by_payment": {
+    "Cash on Delivery": 71622.0,
+    "Credit Card": 170143.0,
+    "Debit Card": 68660.0,
+    "Net Banking": 46140.0,
+    "UPI": 143231.0
+  },
+  "top_products": {
+    "Smartwatch": 60370.0,
+    "Tablet": 59254.0,
+    "Bluetooth Speaker": 56019.0,
+    "Headphones": 53829.0,
+    "Jeans": 27830.0
+  }
+}
